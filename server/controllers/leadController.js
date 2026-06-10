@@ -1,8 +1,11 @@
 const axios = require("axios");
 const Lead = require("../models/lead");
 
-const GOOGLE_SHEET_URL =
-  "https://script.google.com/macros/s/AKfycbykoFwWI6Z6dJMMD3YZZx4aoNd1oXAtpf-eJzAaJxKc_lItQwg7x29GljPXiz9jxxNH/exec";
+// const GOOGLE_SHEET_URL = 
+//   "https://script.google.com/macros/s/AKfycbykoFwWI6Z6dJMMD3YZZx4aoNd1oXAtpf-eJzAaJxKc_lItQwg7x29GljPXiz9jxxNH/exec";
+
+  const GOOGLE_SHEET_URL =
+  process.env.GOOGLE_SHEET_URL;
 
 const createLead = async (req, res) => {
   try {

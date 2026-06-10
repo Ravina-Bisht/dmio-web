@@ -353,7 +353,7 @@ function Footer() {
       {/* COPYRIGHT */}
       <div className="relative z-10 border-t border-white/10 py-6 text-center">
         <p className="text-gray-400 text-sm">
-          © 2026 DMAO - Digital Marketing Academy Online.
+          © 2026 DMIO - Digital Marketing Institute Online.
           All Rights Reserved.
         </p>
       </div>

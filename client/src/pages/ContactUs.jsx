@@ -29,7 +29,7 @@ const handleSubmit = async (e) => {
     setLoading(true);
 
     const res = await axios.post(
-      "http://localhost:5000/api/leads",
+      "https://dmio-backend.onrender.com/api/leads",
       {
         name: formData.name,
         email: formData.email,

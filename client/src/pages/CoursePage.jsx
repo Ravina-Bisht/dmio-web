@@ -36,7 +36,7 @@ const handleSubmit = async (e) => {
     setLoading(true);
 
     const response = await fetch(
-      "http://localhost:5000/api/leads",
+      "https://dmio-backend.onrender.com/api/leads",
       {
         method: "POST",
         headers: {
