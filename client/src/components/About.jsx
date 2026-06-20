@@ -23,7 +23,7 @@ function About() {
           {/* IMAGE */}
           <div className="relative overflow-hidden rounded-[40px] border border-white/10 bg-white/5 backdrop-blur-xl">
             <img
-              src="https://i.pinimg.com/1200x/74/f5/0f/74f50f515887b6ef1d943b6a4f289eff.jpg"
+              src="https://i.pinimg.com/1200x/01/94/73/019473bbdcf87c2fa9d56c9aecf78742.jpg"
               alt="DMAO"
               className="w-full h-162.5 object-cover transition duration-700 group-hover:scale-110"
             />

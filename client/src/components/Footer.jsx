@@ -292,12 +292,12 @@ function Footer() {
                 </div>
               </div>
 
-              <div className="flex gap-4">
+              <div className="flex gap-4 w-150">
                 <div className="w-14 h-14 rounded-2xl bg-[#0A2A66]/50 border border-[#F5B301]/10 flex items-center justify-center text-[#F5B301]">
                   <Mail size={20} />
                 </div>
 
-                <div>
+                <div className="w-100">
                   <p className="text-gray-400 text-sm">
                     Email
                   </p>

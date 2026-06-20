@@ -66,10 +66,10 @@ const courses = [
   },
 
   {
-    title: "AI Marketing",
+    title: "Website Development",
     slug: "ai",
-    image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
+    image: "https://i.pinimg.com/736x/6c/9b/44/6c9b449ed477f4bbac642fc60f697d8b.jpg",
+      // "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070&auto=format&fit=crop",
 
     about:
       "Use AI tools to automate marketing workflows, create content faster, and build modern digital campaigns.",
@@ -95,7 +95,7 @@ function AllCourses() {
   name: "",
   email: "",
   phone: "",
-    course: "SEO Marketing",
+  course: "SEO Marketing",
   message: "",
 });
 
