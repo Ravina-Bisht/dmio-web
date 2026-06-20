@@ -116,7 +116,7 @@ function Hero() {
         {/* GLASS STATS */}
         <div className="mt-16 flex flex-wrap justify-center gap-6">
           <div className="bg-white/5 border border-[#F7B500]/20 backdrop-blur-2xl px-8 py-5 rounded-3xl">
-            <h2 className="text-3xl font-bold text-[#F7B500]">5K+</h2>
+            <h2 className="text-3xl font-bold text-[#F7B500]">2K+</h2>
             <p className="text-gray-300">Students</p>
           </div>
 

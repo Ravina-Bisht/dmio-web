@@ -104,7 +104,7 @@ useEffect(() => {
   const stats = [
     {
       icon: <Users size={26} />,
-      number: 200,
+      number: 2000,
       suffix: "+",
       text: "Students Trained",
     },
@@ -151,17 +151,17 @@ useEffect(() => {
         <div className="grid lg:grid-cols-2 gap-24 items-center">
           {/* LEFT CONTENT */}
           <div className="relative">
-            <div className="absolute -top-10 left-0 w-40 h-40 rounded-full bg-[#F5B301]/10 blur-[90px] animate-pulse"></div>
+            <div className="absolute -top-10 left-0 w-45 h-40 rounded-full bg-[#F5B301]/10 blur-[90px] animate-pulse"></div>
 
             <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-[#F5B301]/20 bg-[#0A2A66]/40 backdrop-blur-2xl mb-8">
               <span className="w-3 h-3 rounded-full bg-[#F5B301] animate-ping"></span>
 
               <p className="uppercase tracking-[4px] text-sm text-[#F5B301] font-semibold">
-                Why Choose DMAO?
+                Why Choose DMIO?
               </p>
             </div>
 
-            <h2 className="text-5xl md:text-7xl font-black leading-tight mb-8">
+            <h2 className="text-5xl md:text-7xl font-black leading-tight mb-8 w-200 ">
               Your Success Is
               <span className="block text-[#F5B301] animate-pulse">
                 Our Mission
@@ -171,7 +171,7 @@ useEffect(() => {
             <div className="h-0.75 w-44 rounded-full bg-linear-to-r from-[#F5B301] to-transparent mb-10"></div>
 
             <p className="text-gray-300 text-lg leading-relaxed mb-14 animate-[fadeUp_1.2s_ease]">
-              DMAO delivers comprehensive, industry-focused digital marketing
+              DMIO delivers comprehensive, industry-focused digital marketing
               training with practical implementation, helping students build
               real-world skills for the modern digital economy.
             </p>
@@ -210,7 +210,7 @@ useEffect(() => {
             <div className="relative overflow-hidden rounded-[45px] border border-white/10 bg-white/5 backdrop-blur-2xl">
               <img
                 src="https://i.pinimg.com/1200x/6f/00/21/6f0021c55d8d81220a757d696ad9d6e4.jpg"
-                alt="DMAO Students"
+                alt="DMIO Students"
                 className="w-full h-187.5 object-cover transition duration-700 group-hover:scale-110"
               />
 
@@ -218,6 +218,7 @@ useEffect(() => {
             </div>
           </div>
         </div>
+
 
         {/* STATS */}
         <div className="mt-24 grid grid-cols-2 md:grid-cols-4 gap-6">
