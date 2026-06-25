@@ -141,11 +141,13 @@ import {
 } from "lucide-react";
 
 import {
-  FaInstagram,
   FaFacebookF,
   FaLinkedinIn,
   FaYoutube,
 } from "react-icons/fa";
+
+
+import { FiInstagram } from "react-icons/fi";
 
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.jpeg";
@@ -199,7 +201,9 @@ function Footer() {
                 href="#"
                 className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-[#0A2A66]/50 hover:border-[#F5B301]/30 hover:text-[#F5B301] transition-all duration-500"
               >
-                <FaInstagram size={20} />
+              <FiInstagram />
+              {/* <FontAwesomeIcon icon={byPrefixAndName.fab['instagram']} style={{color: "rgb(221, 14, 137)",}} /> */}
+                {/* <FaInstagram size={20} /> */}
               </a>
 
               <a
@@ -235,16 +239,21 @@ function Footer() {
               <Link
                 to="/"
                 className="text-gray-300 hover:text-[#F5B301] transition duration-300"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 Home
               </Link>
-
+{/* 
               <Link
                 to="/about"
                 className="text-gray-300 hover:text-[#F5B301] transition duration-300"
               >
                 About Us
-              </Link>
+              </Link> */}
+
+               <Link to="/about">
+            About
+           </Link>
 
               <Link
                 to="/courses"
@@ -259,7 +268,7 @@ function Footer() {
               >
                 Contact
               </Link>
-
+             
               <Link
                 to="/faq"
                 className="text-gray-300 hover:text-[#F5B301] transition duration-300"

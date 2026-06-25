@@ -19,7 +19,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="relative h-screen overflow-hidden flex items-center justify-center text-white">
+    <section  className="relative h-screen overflow-hidden flex items-center justify-center text-white" >
       {/* BACKGROUND SLIDER */}
       <div className="absolute inset-0">
         {slides.map((slide, index) => (
