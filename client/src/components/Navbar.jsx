@@ -91,13 +91,13 @@ function Navbar() {
       link: "/course/ai",
     },
   ].map((item, index) => (
-    <a
-      key={index}
-      href={item.link}
-      className="block px-5 py-4 rounded-xl hover:bg-white/10 cursor-pointer transition"
-    >
-      {item.name}
-    </a>
+    <Link
+  key={index}
+  to={item.link}
+  className="block px-5 py-4 rounded-xl hover:bg-white/10 cursor-pointer transition"
+>
+  {item.name}
+</Link>
   ))}
 </div>
             </div>
