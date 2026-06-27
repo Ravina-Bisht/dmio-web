@@ -3,7 +3,7 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Courses from '../components/Courses'
 import WhyChooseUs from '../components/WhyChooseUs'
-import Form from '../components/Form'
+
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
      <About/>
     <Courses/>
     <WhyChooseUs/>
-     <Form/>
+    
    </>
   )
 }

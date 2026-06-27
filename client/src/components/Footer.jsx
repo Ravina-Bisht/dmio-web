@@ -251,13 +251,17 @@ function Footer() {
                 About Us
               </Link> */}
 
-               <Link to="/about">
+               <Link to="/about"
+               className="text-gray-300 hover:text-[#F5B301] transition duration-300"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+               >
             About
            </Link>
 
               <Link
                 to="/courses"
                 className="text-gray-300 hover:text-[#F5B301] transition duration-300"
+                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 Courses
               </Link>
@@ -265,6 +269,7 @@ function Footer() {
               <Link
                 to="/contact"
                 className="text-gray-300 hover:text-[#F5B301] transition duration-300"
+                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 Contact
               </Link>
@@ -272,6 +277,7 @@ function Footer() {
               <Link
                 to="/faq"
                 className="text-gray-300 hover:text-[#F5B301] transition duration-300"
+                 onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
               >
                 FAQ
               </Link>
