@@ -8,6 +8,7 @@ import { Routes, Route} from 'react-router-dom'
 import AllCourses from './pages/AllCourses'
 import AboutPage from './pages/AboutPage'
 import Contact from './pages/ContactUs'
+import ScrollToTop from './components/ScrollToTop'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     
       <Navbar/>
       {/* <PopupForm/> */}
+      <ScrollToTop/>
 
       <Routes>
       <Route path="/" element={<Home />} />
